@@ -35,6 +35,7 @@
         <module>common</module>
         <module>api-gateway</module>
         <module>service-discovery</module>
+        <module>data-migration</module>
         <module>inventory-service</module>
         <module>accounts-service</module>
         <module>sales-service</module>
@@ -129,4 +130,3 @@
         </pluginManagement>
     </build>
 </project>
-
