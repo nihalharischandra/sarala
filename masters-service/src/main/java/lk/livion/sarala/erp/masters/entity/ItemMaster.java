@@ -1,3 +1,21 @@
+package lk.livion.sarala.erp.masters.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+/**
+ * Item Master - Product/Inventory Item
+ * Similar to BUSY's Item Master but with meaningful column names
+ */
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class ItemMaster {
 
     private Long itemId;
@@ -77,22 +95,5 @@ public class ItemMaster {
     private String updatedBy;
     private Long version;
 }
-package lk.livion.sarala.erp.masters.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
-
-/**
- * Item Master - Product/Inventory Item
- * Similar to BUSY's Item Master but with meaningful column names
- */
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 

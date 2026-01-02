@@ -1,3 +1,20 @@
+package lk.livion.sarala.erp.masters.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDateTime;
+
+/**
+ * Party Master - Customers, Suppliers, Employees, etc.
+ * Unified party management similar to BUSY
+ */
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class PartyMaster {
 
     private Long partyId;
@@ -98,21 +115,5 @@ public class PartyMaster {
     private String updatedBy;
     private Long version;
 }
-package lk.livion.sarala.erp.masters.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import java.time.LocalDateTime;
-
-/**
- * Party Master - Customers, Suppliers, Employees, etc.
- * Unified party management similar to BUSY
- */
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 

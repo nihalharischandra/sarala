@@ -94,12 +94,12 @@ public class ItemMasterMigrationService {
             busy.getD1AsBigDecimal(),                 // purchase_rate (D1)
             busy.getD2AsBigDecimal(),                 // sale_rate (D2)
             busy.getD3AsBigDecimal(),                 // mrp (D3)
-            busy.getD4AsBigDecimal(),                 // minimum_sale_rate (D4)
-            busy.getD5AsBigDecimal(),                 // wholesale_rate (D5)
+            //busy.getD4AsBigDecimal(),                 // minimum_sale_rate (D4)
+            //busy.getD5AsBigDecimal(),                 // wholesale_rate (D5)
 
             // Stock - Map BUSY D fields
             busy.getD6(),                             // opening_stock (D6)
-            busy.getD7AsBigDecimal(),                 // opening_stock_value (D7)
+            //busy.getD7AsBigDecimal(),                 // opening_stock_value (D7)
             busy.getD8(),                             // reorder_level (D8)
             busy.getD9(),                             // reorder_quantity (D9)
             busy.getD10(),                            // minimum_stock_level (D10)
